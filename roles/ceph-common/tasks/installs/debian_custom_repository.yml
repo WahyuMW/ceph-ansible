@@ -1,5 +1,5 @@
 ---
-  - name: configure debian apt key custom repository
+- name: configure debian apt key custom repository
   apt_key:
     url: "{{ ceph_custom_key }}"
     state: present
